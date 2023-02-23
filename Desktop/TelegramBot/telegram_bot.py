@@ -82,7 +82,7 @@ async def create_example(user, message):
 
 def main():
     global db, bot
-    bot = Bot(token='1823627902:AAF06zrp3MV7_J0ubZ1NBbxcDzmT9Y4OBc8')
+    bot = Bot(token='token')
     server = Server()
     dp = Dispatcher(bot)
     db = Manager(r"DB/TelegramBotDB")
